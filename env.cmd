@@ -1,0 +1,34 @@
+@echo off
+cls
+
+echo HTTP_PROXY=%HTTP_PROXY%
+echo HTTPS_PROXY=%HTTPS_PROXY%
+echo.
+
+echo PATH=
+spath
+echo.
+
+echo PATH_U=
+spath -u
+echo.
+
+echo HOME=%HOME%
+echo TOOLS=%TOOLS%
+echo USR_ROOT=%USR_ROOT%
+echo CMDER_ROOT=%CMDER_ROOT%
+echo GIT_INSTALL_ROOT=%GIT_INSTALL_ROOT%
+echo GOBIN=%GOBIN%
+echo GOPATH=%GOPATH%
+echo GOROOT=%GOROOT%
+echo DOCKER_TOOLBOX_INSTALL_PATH=%DOCKER_TOOLBOX_INSTALL_PATH%
+echo VBOX_MSI_INSTALL_PATH=%VBOX_MSI_INSTALL_PATH%
+echo XDEBUG_SESSION=%XDEBUG_SESSION%
+echo NODE_PATH=%NODE_PATH%
+echo JAVA_HOME=%JAVA_HOME%
+echo ANT_HOME=%ANT_HOME%
+echo.
+
+git --version
+where git
+echo.
